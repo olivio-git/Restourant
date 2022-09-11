@@ -1,0 +1,15 @@
+Capa OSI creada por ISO:organización internacional de standarizacion
+
+7) aplicacion: proporciona servicios de red a los procesos de aplicacion(mail,ftp)--medios Youtube,Whatsapp
+6) presentacion: la encargada de traducir el formato de los datos---asegurar que el sistema receptor pueda leer los datos
+5) sesión: encargada de la comunicacion entre hosts"son dispositivos pc,celular" conectados a red
+4) transporte: segmenta los datos, un archivo que pese 20mb divine esos 20mb en trozos--le pone la etiqueta [tpc:encargado de que
+	no se pierdan los fragmentos: udp: es la que no prioriza el reenvio de los fragmentos]
+	.-cuando faltan fragmentos solo pide
+3) red: encargada de ver el mejor camino, direccionamiento y ruta
+2) enlace de datos: toma toda la informacion y la traduce a binarios para que la fisica envie esa informacion
+1) transmision binaria: la que envia la informacion
+	
+
+Capa TCP/IP
+

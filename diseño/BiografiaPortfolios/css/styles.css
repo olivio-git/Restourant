@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    color: black;
+   /*border: 1px solid red;*/
+}
+/*Diseñando cuadriculas*/
+
+.main{
+    background-color: #ffffff;
+    height:100vh;
+}
+.secund{
+    background-color: #FFFFFF;
+    height: 5vh;
+}
+
+.letters h1,h3{
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+.letters{
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-top: 150px;
+    /*font-family: 'Koulen', cursive;
+    font-family: 'Roboto', sans-serif;*/
+
+}
+#wt{
+    color: #ffffff;
+}
+#wt p{
+    margin-top: 40px;
+}
+.letters h2{
+    margin-left: 100px;
+    font-family: 'Koulen', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Smooch', cursive;
+}
+.letters, .btn{
+    width: 500px;
+    height: 150px;
+}
+.btn{
+    background-color: transparent;
+    margin-top: 150px;
+}
+.btn a{
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 10px 55px;
+    color: dimgrey;
+    text-decoration: none;
+    position: absolute;
+    border: #FFFFFF 1px solid;
+}
+.btn a:hover{
+    background-color: transparent;
+    border: #FFFFFF 1px solid;
+    color: #ffffff;
+    transition: all 1s ;
+}
+.rows{
+    background:url(/img/1.jpg)no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(0,0,0,0.3);
+}
+/*Bios empieza aqui*/
+.primera, .segunda{
+    float: left;
+    height: 95px;
+    background-color:#F3EDE9;
+}
+.tercera{
+    height: 100vh;
+    background-color: #e2e2e2;
+}
+.btnn a{
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 55px;
+    color: #ffffff;
+    text-decoration: none;
+    position:relative;
+    border: black 1px solid;
+    float: right;
+    margin-top: 10px;
+}
+.btnn a:hover{
+    background-color:transparent;
+    border: black 1px solid;
+    color:black;
+    transition: all .9s ;
+    
+}
+.letterss h1,h4{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.letterss{
+    background-color: transparent;
+    color: dimgray;
+    margin-top: 0px;
+    /*font-family: 'Koulen', cursive;
+    font-family: 'Roboto', sans-serif;*/
+
+}
+.letterss h2{
+    margin-left: 25px;
+    font-family: 'Koulen', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Smooch', cursive;
+}
+.carddos{
+    background-color: #ffffff;
+    width: 320px;
+    height: 420px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0.5);
+}
+
+.carduno {
+    background-color: #ffffff;
+    width: 320px;
+    height: 420px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 10px;      
+    box-shadow: 0 10px 20px rgba(0,0,0.5);
+}
+.carduno h1, .carddos h1{
+    font-size: 20px;
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.carduno h2, .carddos h2{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    color:darkgray
+}
+.carduno p, .carddos p{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    margin: 30px;
+    color: #0d2262;
+}
+
+.avatar{
+   width: 100px;
+   border-radius: 50%;
+   position: relative;
+   top: -50px;
+   left: calc(35%);
+   box-shadow: 0 10px 20px rgba(0,0,0.5);
+   transition: all .5s;
+}
+.avatar:hover{
+    border: 1px solid black;
+    box-shadow: 10px 10px 20px rgba(254, 254, 254, 0.8);
+}
+.content{
+    
+    height: 250px;
+}
+#a,#d{
+    margin-left:35px;
+    font-family: 'koulen',cursive;
+  }
+  #b,#e{
+    margin-left: 15px;
+    font-family: 'koulen',cursive;
+  }
+  #c,#f{
+    margin-left: 10px;
+    font-family: 'koulen',cursive;
+  }
+  a i:hover{
+    color: #1fe8b6;
+  }
+  .colorf{
+    color: dimgray;
+    text-align: center;
+  }
